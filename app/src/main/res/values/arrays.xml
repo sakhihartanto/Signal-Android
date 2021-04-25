@@ -67,6 +67,7 @@
 <!-- sl --><item>Slovenščina</item>
 <!-- sk --><item>Slovenský</item>
 <!-- fi --><item>Suomi</item>
+      <!-- su --><item>Sundanese</item>
 <!-- sv --><item>Svenska</item>
 <!-- ta --><item>Tamil தமிழ்</item>
 <!-- kab --><item>Taqbaylit</item>
@@ -145,6 +146,7 @@
       <item>sl</item>
       <item>sk</item>
       <item>fi</item>
+      <item>su</item>
       <item>sv</item>
       <item>ta</item>
       <item>kab</item>

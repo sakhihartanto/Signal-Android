@@ -37,7 +37,7 @@
     <style name="Signal.Text.Caption" parent="Base.TextAppearance.AppCompat.Caption">
         <item name="android:textSize">12sp</item>
         <item name="android:lineSpacingExtra">2sp</item>
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">monospace</item>
         <item name="android:letterSpacing" tools:ignore="NewApi">0.03</item>
     </style>
 
@@ -45,12 +45,14 @@
     <style name="Signal.Text.Caption.MessageSent">
         <item name="android:textColor">@color/signal_text_secondary</item>
         <item name="android:shadowRadius">0</item>
+        <item name="android:fontFamily">monospace</item>
     </style>
 
     <style name="Signal.Text.Caption.MessageReceived">
         <item name="android:textColor">@color/conversation_item_received_text_secondary_color</item>
         <item name="android:shadowRadius">0</item>
         <item name="android:alpha">0.7</item>
+        <item name="android:fontFamily">monospace</item>
     </style>
 
     <style name="Signal.Text.Caption.MessageImageOverlay">
@@ -94,11 +96,6 @@
         <item name="android:textColor">@color/insight_title</item>
     </style>
 
-    <style name="TextAppearance.Signal.Title.InfoCard" parent="">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
     <style name="TextAppearance.Signal.Body.Insights" parent="">
         <item name="android:textColor">@color/signal_text_secondary</item>
         <item name="android:textSize">14sp</item>
@@ -132,11 +129,6 @@
 
     <style name="TextAppearance.Signal.Body1.Bold">
         <item name="fontFamily">sans-serif-medium</item>
-    </style>
-
-    <style name="TextAppearance.Signal.Mono" parent="@style/TextAppearance.AppCompat.Caption">
-        <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">monospace</item>
     </style>
 
     <style name="TextAppearance.Signal.Caption" parent="@style/TextAppearance.AppCompat.Caption">
